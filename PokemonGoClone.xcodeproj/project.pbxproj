@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D03FB4461DB1470100306748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB4451DB1470100306748 /* AppDelegate.swift */; };
+		D03FB4481DB1470100306748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB4471DB1470100306748 /* ViewController.swift */; };
+		D03FB44B1DB1470100306748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB4491DB1470100306748 /* Main.storyboard */; };
+		D03FB44E1DB1470100306748 /* PokemonGoClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D03FB44C1DB1470100306748 /* PokemonGoClone.xcdatamodeld */; };
+		D03FB4501DB1470100306748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03FB44F1DB1470100306748 /* Assets.xcassets */; };
+		D03FB4531DB1470100306748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB4511DB1470100306748 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D03FB4421DB1470100306748 /* PokemonGoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03FB4451DB1470100306748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D03FB4471DB1470100306748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D03FB44A1DB1470100306748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03FB44D1DB1470100306748 /* PokemonGoClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PokemonGoClone.xcdatamodel; sourceTree = "<group>"; };
+		D03FB44F1DB1470100306748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03FB4521DB1470100306748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D03FB4541DB1470100306748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D03FB43F1DB1470100306748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D03FB4391DB1470100306748 = {
+			isa = PBXGroup;
+			children = (
+				D03FB4441DB1470100306748 /* PokemonGoClone */,
+				D03FB4431DB1470100306748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D03FB4431DB1470100306748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB4421DB1470100306748 /* PokemonGoClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D03FB4441DB1470100306748 /* PokemonGoClone */ = {
+			isa = PBXGroup;
+			children = (
+				D03FB4451DB1470100306748 /* AppDelegate.swift */,
+				D03FB4471DB1470100306748 /* ViewController.swift */,
+				D03FB4491DB1470100306748 /* Main.storyboard */,
+				D03FB44F1DB1470100306748 /* Assets.xcassets */,
+				D03FB4511DB1470100306748 /* LaunchScreen.storyboard */,
+				D03FB4541DB1470100306748 /* Info.plist */,
+				D03FB44C1DB1470100306748 /* PokemonGoClone.xcdatamodeld */,
+			);
+			path = PokemonGoClone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D03FB4411DB1470100306748 /* PokemonGoClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D03FB4571DB1470100306748 /* Build configuration list for PBXNativeTarget "PokemonGoClone" */;
+			buildPhases = (
+				D03FB43E1DB1470100306748 /* Sources */,
+				D03FB43F1DB1470100306748 /* Frameworks */,
+				D03FB4401DB1470100306748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonGoClone;
+			productName = PokemonGoClone;
+			productReference = D03FB4421DB1470100306748 /* PokemonGoClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D03FB43A1DB1470100306748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Axel Vencatareddy";
+				TargetAttributes = {
+					D03FB4411DB1470100306748 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z258W9QL44;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D03FB43D1DB1470100306748 /* Build configuration list for PBXProject "PokemonGoClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D03FB4391DB1470100306748;
+			productRefGroup = D03FB4431DB1470100306748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D03FB4411DB1470100306748 /* PokemonGoClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D03FB4401DB1470100306748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03FB4531DB1470100306748 /* LaunchScreen.storyboard in Resources */,
+				D03FB4501DB1470100306748 /* Assets.xcassets in Resources */,
+				D03FB44B1DB1470100306748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D03FB43E1DB1470100306748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03FB4481DB1470100306748 /* ViewController.swift in Sources */,
+				D03FB44E1DB1470100306748 /* PokemonGoClone.xcdatamodeld in Sources */,
+				D03FB4461DB1470100306748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D03FB4491DB1470100306748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03FB44A1DB1470100306748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D03FB4511DB1470100306748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D03FB4521DB1470100306748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D03FB4551DB1470100306748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D03FB4561DB1470100306748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D03FB4581DB1470100306748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z258W9QL44;
+				INFOPLIST_FILE = PokemonGoClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.avencatareddy.PokemonGoClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D03FB4591DB1470100306748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z258W9QL44;
+				INFOPLIST_FILE = PokemonGoClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.avencatareddy.PokemonGoClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D03FB43D1DB1470100306748 /* Build configuration list for PBXProject "PokemonGoClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03FB4551DB1470100306748 /* Debug */,
+				D03FB4561DB1470100306748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D03FB4571DB1470100306748 /* Build configuration list for PBXNativeTarget "PokemonGoClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D03FB4581DB1470100306748 /* Debug */,
+				D03FB4591DB1470100306748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D03FB44C1DB1470100306748 /* PokemonGoClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D03FB44D1DB1470100306748 /* PokemonGoClone.xcdatamodel */,
+			);
+			currentVersion = D03FB44D1DB1470100306748 /* PokemonGoClone.xcdatamodel */;
+			path = PokemonGoClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D03FB43A1DB1470100306748 /* Project object */;
+}
