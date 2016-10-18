@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03EA8911DB3C66200A14296 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EA8901DB3C66200A14296 /* PokedexViewController.swift */; };
+		D03EA8931DB3C89C00A14296 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03EA8921DB3C89C00A14296 /* CoreDataHelp.swift */; };
 		D03FB4461DB1470100306748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB4451DB1470100306748 /* AppDelegate.swift */; };
 		D03FB4481DB1470100306748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03FB4471DB1470100306748 /* ViewController.swift */; };
 		D03FB44B1DB1470100306748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB4491DB1470100306748 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D03EA8901DB3C66200A14296 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		D03EA8921DB3C89C00A14296 /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
 		D03FB4421DB1470100306748 /* PokemonGoClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGoClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03FB4451DB1470100306748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D03FB4471DB1470100306748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,11 +66,13 @@
 			children = (
 				D03FB4451DB1470100306748 /* AppDelegate.swift */,
 				D03FB4471DB1470100306748 /* ViewController.swift */,
+				D03EA8901DB3C66200A14296 /* PokedexViewController.swift */,
 				D03FB4491DB1470100306748 /* Main.storyboard */,
 				D03FB44F1DB1470100306748 /* Assets.xcassets */,
 				D03FB4511DB1470100306748 /* LaunchScreen.storyboard */,
 				D03FB4541DB1470100306748 /* Info.plist */,
 				D03FB44C1DB1470100306748 /* PokemonGoClone.xcdatamodeld */,
+				D03EA8921DB3C89C00A14296 /* CoreDataHelp.swift */,
 			);
 			path = PokemonGoClone;
 			sourceTree = "<group>";
@@ -153,7 +159,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D03FB4481DB1470100306748 /* ViewController.swift in Sources */,
+				D03EA8911DB3C66200A14296 /* PokedexViewController.swift in Sources */,
 				D03FB44E1DB1470100306748 /* PokemonGoClone.xcdatamodeld in Sources */,
+				D03EA8931DB3C89C00A14296 /* CoreDataHelp.swift in Sources */,
 				D03FB4461DB1470100306748 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +326,7 @@
 				D03FB4591DB1470100306748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
