@@ -55,7 +55,6 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="o3u-9M-VbF" secondAttribute="trailing" constant="40" id="3qM-dj-lfS"/>
                             <constraint firstItem="g2I-lU-s5s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8fh-Fp-sMv"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g2I-lU-s5s" secondAttribute="bottom" id="8mA-L0-Gvo"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wv2-On-13C" secondAttribute="bottom" constant="20" id="PbD-yc-IZa"/>
                             <constraint firstItem="nc5-mv-cil" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Tiy-hA-3yX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Jqn-XL-wfs" secondAttribute="bottom" constant="20" id="U0T-Ag-DDx"/>
@@ -64,9 +63,10 @@
                             <constraint firstItem="Wv2-On-13C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dNC-a8-Mkl"/>
                             <constraint firstItem="o3u-9M-VbF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="ekJ-q3-J68"/>
                             <constraint firstItem="nc5-mv-cil" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="esb-Uc-hmz"/>
-                            <constraint firstItem="o3u-9M-VbF" firstAttribute="bottom" secondItem="g2I-lU-s5s" secondAttribute="bottom" id="ilK-ju-E1U"/>
                             <constraint firstAttribute="trailing" secondItem="g2I-lU-s5s" secondAttribute="trailing" id="itB-Yf-wor"/>
+                            <constraint firstItem="g2I-lU-s5s" firstAttribute="bottom" secondItem="o3u-9M-VbF" secondAttribute="bottom" id="prc-3q-2It"/>
                             <constraint firstItem="g2I-lU-s5s" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="y9F-OM-x44"/>
+                            <constraint firstItem="g2I-lU-s5s" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="yY5-cQ-dT6"/>
                         </constraints>
                     </view>
                     <connections>
