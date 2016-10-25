@@ -67,12 +67,12 @@
 				D03FB4451DB1470100306748 /* AppDelegate.swift */,
 				D03FB4471DB1470100306748 /* ViewController.swift */,
 				D03EA8901DB3C66200A14296 /* PokedexViewController.swift */,
+				D03EA8921DB3C89C00A14296 /* CoreDataHelp.swift */,
 				D03FB4491DB1470100306748 /* Main.storyboard */,
 				D03FB44F1DB1470100306748 /* Assets.xcassets */,
 				D03FB4511DB1470100306748 /* LaunchScreen.storyboard */,
 				D03FB4541DB1470100306748 /* Info.plist */,
 				D03FB44C1DB1470100306748 /* PokemonGoClone.xcdatamodeld */,
-				D03EA8921DB3C89C00A14296 /* CoreDataHelp.swift */,
 			);
 			path = PokemonGoClone;
 			sourceTree = "<group>";
