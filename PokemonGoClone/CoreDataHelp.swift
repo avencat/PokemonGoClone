@@ -17,7 +17,7 @@ func addAllPokemon() {
   createPokemon(name: "Poustiflor", imageName: "bellsprout")
   createPokemon(name: "Bulbizarre", imageName: "bullbasaur")
   createPokemon(name: "Salamèche", imageName: "charmander")
-  createPokemon(name: "Draco", imageName: "dratini")
+  createPokemon(name: "Minidraco", imageName: "dratini")
   createPokemon(name: "Évoli", imageName: "eevee")
   createPokemon(name: "Rondoudou", imageName: "jigglypuff")
   createPokemon(name: "Férosinge", imageName: "mankey")
