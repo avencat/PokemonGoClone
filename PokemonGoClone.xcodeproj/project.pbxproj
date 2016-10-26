@@ -15,7 +15,6 @@
 		D03FB4501DB1470100306748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03FB44F1DB1470100306748 /* Assets.xcassets */; };
 		D03FB4531DB1470100306748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03FB4511DB1470100306748 /* LaunchScreen.storyboard */; };
 		D03FB45C1DB1495500306748 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03FB45B1DB1495500306748 /* MapKit.framework */; };
-		D0BACD551DC1402E00DD1C23 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0BACD541DC1402E00DD1C23 /* Info.plist */; };
 		D0BACD581DC1410D00DD1C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0BACD5A1DC1410D00DD1C23 /* InfoPlist.strings */; };
 		D0F5E75A1DC10EF80072D945 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0F5E75C1DC10EF80072D945 /* Localizable.strings */; };
 		D0FD00581DBFD6CD00D12C1C /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD00571DBFD6CD00D12C1C /* PokeAnnotation.swift */; };
@@ -31,7 +30,6 @@
 		D03FB44F1DB1470100306748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03FB4521DB1470100306748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D03FB45B1DB1495500306748 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		D0BACD541DC1402E00DD1C23 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0BACD591DC1410D00DD1C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0BACD5B1DC1410F00DD1C23 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0F5E7551DC10BF80072D945 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 				D03FB4491DB1470100306748 /* Main.storyboard */,
 				D03FB44F1DB1470100306748 /* Assets.xcassets */,
 				D03FB4511DB1470100306748 /* LaunchScreen.storyboard */,
-				D0BACD541DC1402E00DD1C23 /* Info.plist */,
 				D0BACD5A1DC1410D00DD1C23 /* InfoPlist.strings */,
 				D03FB44C1DB1470100306748 /* PokemonGoClone.xcdatamodeld */,
 			);
@@ -162,7 +159,6 @@
 				D0BACD581DC1410D00DD1C23 /* InfoPlist.strings in Resources */,
 				D0F5E75A1DC10EF80072D945 /* Localizable.strings in Resources */,
 				D03FB4501DB1470100306748 /* Assets.xcassets in Resources */,
-				D0BACD551DC1402E00DD1C23 /* Info.plist in Resources */,
 				D03FB44B1DB1470100306748 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

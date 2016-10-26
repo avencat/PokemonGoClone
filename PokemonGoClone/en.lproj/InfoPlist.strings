@@ -6,4 +6,4 @@
   Copyright © 2016 Axel Vencatareddy. All rights reserved.
 */
 
-"ASKFORGPS"="In order to play this game, we need to access to the GPS! 😉";
+"NSLocationWhenInUseUsageDescription"="In order to play this game, we need to access to the GPS! 😉";
