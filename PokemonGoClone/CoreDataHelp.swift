@@ -11,25 +11,25 @@ import CoreData
 
 func addAllPokemon() {
   
-  createPokemon(name: "Mew", imageName: "mew")
-  createPokemon(name: "Miaouss", imageName: "meowth")
-  createPokemon(name: "Abra", imageName: "abra")
-  createPokemon(name: "Poustiflor", imageName: "bellsprout")
-  createPokemon(name: "Bulbizarre", imageName: "bullbasaur")
-  createPokemon(name: "Salamèche", imageName: "charmander")
-  createPokemon(name: "Minidraco", imageName: "dratini")
-  createPokemon(name: "Évoli", imageName: "eevee")
-  createPokemon(name: "Rondoudou", imageName: "jigglypuff")
-  createPokemon(name: "Férosinge", imageName: "mankey")
-  createPokemon(name: "Piafabec", imageName: "pidgey")
-  createPokemon(name: "Pikachu", imageName: "pikachu-2")
-  createPokemon(name: "Psykokwak", imageName: "psyduck")
-  createPokemon(name: "Rattata", imageName: "rattata")
-  createPokemon(name: "Ronflex", imageName: "snorlax")
-  createPokemon(name: "Carapuce", imageName: "squirtle")
-  createPokemon(name: "Mimitoss", imageName: "venonat")
-  createPokemon(name: "Aspicot", imageName: "weedle")
-  createPokemon(name: "Nosferapti", imageName: "zubat")
+  createPokemon(name: "MEW".localized, imageName: "mew")
+  createPokemon(name: "MEOWTH".localized, imageName: "meowth")
+  createPokemon(name: "ABRA".localized, imageName: "abra")
+  createPokemon(name: "BELLSPROUT".localized, imageName: "bellsprout")
+  createPokemon(name: "BULLBASAUR".localized, imageName: "bullbasaur")
+  createPokemon(name: "CHARMANDER".localized, imageName: "charmander")
+  createPokemon(name: "DRATINI".localized, imageName: "dratini")
+  createPokemon(name: "EEVEE".localized, imageName: "eevee")
+  createPokemon(name: "JIGGLYPUFF".localized, imageName: "jigglypuff")
+  createPokemon(name: "MANKEY".localized, imageName: "mankey")
+  createPokemon(name: "PIDGEY".localized, imageName: "pidgey")
+  createPokemon(name: "PIKACHU".localized, imageName: "pikachu")
+  createPokemon(name: "PSYDUCK".localized, imageName: "psyduck")
+  createPokemon(name: "RATTATA".localized, imageName: "rattata")
+  createPokemon(name: "SNORLAX".localized, imageName: "snorlax")
+  createPokemon(name: "SQUIRTLE".localized, imageName: "squirtle")
+  createPokemon(name: "VENONAT".localized, imageName: "venonat")
+  createPokemon(name: "WEEDLE".localized, imageName: "weedle")
+  createPokemon(name: "ZUBAT".localized, imageName: "zubat")
   
   (UIApplication.shared.delegate as! AppDelegate).saveContext()
 }
@@ -87,4 +87,10 @@ func getAllUncaughtPokemons() -> [Pokemon] {
   } catch {}
   
   return []
+}
+
+extension String {
+  var localized: String {
+    return NSLocalizedString(self, tableName: nil, bundle: Bundle.main, value: "", comment: "")
+  }
 }

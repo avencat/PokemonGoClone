@@ -29,32 +29,28 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    //TMP
-    
     tableView.frame = CGRect(x: 40, y: UIScreen.main.bounds.size.height, width: UIScreen.main.bounds.size.width - 80, height: UIScreen.main.bounds.size.height - 40)
     tableView.delegate = self
     tableView.dataSource = self
+    tableView.allowsSelection = false
     
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     tableView.layer.cornerRadius = 15
 
     self.view.addSubview(tableView)
     
-    //\TMP
-    
     pokemons = getAllPokemon()
     
     manager.delegate = self
     
-    if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
-      setUp()
-    } else {
+    if CLLocationManager.authorizationStatus() != .authorizedWhenInUse {
       manager.requestWhenInUseAuthorization()
     }
     
     self.view.bringSubview(toFront: pokedexButton)
   }
-  
+
+
   func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
     if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
       setUp()
@@ -66,9 +62,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     mapView.showsUserLocation = true
     manager.startUpdatingLocation()
     
-    Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { (timer) in
+    Timer.scheduledTimer(withTimeInterval: 20, repeats: true) { (timer) in
       // Spawn a pokemon
-      
       if let coord = self.manager.location?.coordinate {
         
         let pokemon = self.pokemons[Int(arc4random_uniform(UInt32(self.pokemons.count)))]
@@ -132,18 +127,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
             
             mapView.removeAnnotation(view.annotation!)
             
-            let alertVC = UIAlertController(title: "Congrats!", message: "You caught a \(pokemon.name!). You're a PokeMaster!", preferredStyle: .alert)
-            let pokedexAction = UIAlertAction(title: "Pokedex", style: .default, handler: { (action) in
+            let alertVC = UIAlertController(title: "CONGRATS".localized, message: "CATCH".localized + pokemon.name! + "CATCH2".localized, preferredStyle: .alert)
+            let pokedexAction = UIAlertAction(title: "POKEDEX".localized, style: .default, handler: { (action) in
               self.pokedexTapped(self.pokedexButton)
             })
-            let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            let okAction = UIAlertAction(title: "OK".localized, style: .default, handler: nil)
             alertVC.addAction(pokedexAction)
             alertVC.addAction(okAction)
             self.present(alertVC, animated: true, completion: nil)
-            
           } else {
-            let alertVC = UIAlertController(title: "Oops...", message: "You're too far away from \((view.annotation as! PokeAnnotation).pokemon.name!). Move closer to it!", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            let alertVC = UIAlertController(title: "OOPS".localized, message: "NOTCAUGHT".localized + (view.annotation as! PokeAnnotation).pokemon.name! + "NOTCAUGHT2".localized, preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK".localized, style: .default, handler: nil)
             alertVC.addAction(okAction)
             self.present(alertVC, animated: true, completion: nil)
           }
@@ -202,9 +196,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
   
   func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
     if section == 0 {
-      return "Caught"
+      return "CAUGHT".localized
     } else {
-      return "Uncaught"
+      return "UNCAUGHT".localized
     }
   }
   
@@ -232,6 +226,21 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     return cell
   }
   
-  //\TMP
+  func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+    if section == 0 {
+      return nil
+    } else {
+      let footerView = UIView()
+      return footerView
+    }
+  }
+  
+  func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+    if section != 0 {
+      return 80
+    } else {
+      return 0
+    }
+  }
   
 }

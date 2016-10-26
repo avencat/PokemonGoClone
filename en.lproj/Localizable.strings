@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  PokemonGoClone
+
+  Created by Axel Vencatareddy on 26/10/2016.
+  Copyright © 2016 Axel Vencatareddy. All rights reserved.
+*/
+
+
+// Pokemons names
+"MEW"="Mew";
+"MEOWTH"="Meowth";
+"ABRA"="Abra";
+"BELLSPROUT"="Bellsprout";
+"BULLBASAUR"="Bullbasaur";
+"CHARMANDER"="Charmander";
+"DRATINI"="Dratini";
+"EEVEE"="Eevee";
+"JIGGLYPUFF"="Jigglypuff";
+"MANKEY"="Mankey";
+"PIDGEY"="Pidgey";
+"PIKACHU"="Pikachu";
+"PSYDUCK"="Psyduck";
+"RATTATA"="Rattata";
+"SNORLAX"="Snorlax";
+"SQUIRTLE"="Squirtle";
+"VENONAT"="Venonat";
+"WEEDLE"="Weedle";
+"ZUBAT"="Zubat";
+
+// Strings for popup
+"CATCH"="You caught a ";
+"CATCH2"=". You're a PokeMaster!";
+"POKEDEX"="Pokedex";
+"CONGRATS"="Congrats!";
+"OK"="Ok";
+"OOPS"="Oops...";
+"NOTCAUGHT"="You're too far away from ";
+"NOTCAUGHT2"=". Move closer to it!";
+"CAUGHT"="Caught";
+"UNCAUGHT"="Uncaught";

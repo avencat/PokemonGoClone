@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  PokemonGoClone
+
+  Created by Axel Vencatareddy on 26/10/2016.
+  Copyright © 2016 Axel Vencatareddy. All rights reserved.
+*/
+
+"ASKFORGPS"="In order to play this game, we need to access to the GPS! 😉";
