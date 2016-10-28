@@ -33,4 +33,6 @@ So when you click on it :
 * French
 * English
 
-## Licences
+## Licences and credits
+* Icons : Designed by Freepok and distributed by Flaticon
+© 2016 Pokémon. © 1995–2016 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names are trademarks of Nintendo. Other trademarks are the property of their respective owners.
